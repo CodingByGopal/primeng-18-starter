@@ -1,0 +1,33 @@
+<div class=" bg-primary/5 min-h-screen">
+  <div class=" container ">
+    <div class=" py-10">
+      <form>
+        <h1 class=" mb-1 text-3xl font-semibold ">Simple Form UI With PrimeNg 18 , Angular 18 & Tailwind CSS</h1>
+        <p class="mb-6 text-gray-400 ">This form have
+          <span class=" font-semibold text-black">
+            custom themeing
+          </span> of primeNg, and
+          <span class=" font-semibold text-black">
+            tailwindcss-primeui
+          </span> plugin too
+        </p>
+        <div class="grid  grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-4">
+          <div class="sm:col-span-1">
+            <label for="firstname" class="block font-semibold mb-2">Firstname</label>
+            <input type="text" pInputText id="firstname" class="w-full" />
+          </div>
+          <div class="sm:col-span-1">
+            <label for="lastname" class="block font-semibold mb-2">Lastname</label>
+            <input type="text" pInputText id="lastname" class="w-full" />
+          </div>
+          <div class="sm:col-span-2">
+            <label for="message" class="block font-semibold mb-2">Message</label>
+            <textarea pTextarea id="message" class="w-full" rows="4"></textarea>
+          </div>
+        </div>
+        <p-button label="Submit" />
+
+      </form>
+    </div>
+  </div>
+</div>
